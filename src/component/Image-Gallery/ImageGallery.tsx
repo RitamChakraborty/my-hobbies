@@ -31,9 +31,13 @@ export default function ImageGallery(props: ImageGalleryProps) {
         <div id="ImageGallery">
             <For each={images()}>
                 {
-                    (image) => {
+                    (image, i) => {
                         return (
-                            <Image imageUrl={image} imageName={imageName(image)}/>
+                            <Image
+                                imageLocation={props.imagesLocation}
+                                imageId={i() + 1} imageUrl={image}
+                                imageName={imageName(image)}
+                            />
                         )
                     }
                 }
