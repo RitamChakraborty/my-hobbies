@@ -1,0 +1,8 @@
+@mixin font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@mixin header-font {
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0.5px;
+}
