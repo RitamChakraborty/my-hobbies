@@ -1,0 +1,11 @@
+#Image {
+  img {
+    height: 20vh;
+    border-radius: 0.5rem;
+    transition: 400ms;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}

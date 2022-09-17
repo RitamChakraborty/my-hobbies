@@ -1,5 +1,6 @@
 import {For} from "solid-js";
 import "./ImageGallery.scss";
+import Image from "../Image/Image";
 
 type ImageGalleryProps = {
     imagesLocation: string,
@@ -21,13 +22,18 @@ export default function ImageGallery(props: ImageGalleryProps) {
         return images;
     }
 
+    function imageName(imageUrl: string) {
+        const s = imageUrl.split("/");
+        return s[s.length - 1];
+    }
+
     return (
         <div id="ImageGallery">
             <For each={images()}>
                 {
-                    (image, i) => {
+                    (image) => {
                         return (
-                            <img src={image} alt={`image-${i}`}/>
+                            <Image imageUrl={image} imageName={imageName(image)}/>
                         )
                     }
                 }

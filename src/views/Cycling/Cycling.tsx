@@ -15,7 +15,7 @@ export default function Cycling() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="cycling" imagesCount={31} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="cycling" imagesCount={10} imagesExtension="jpg"/>
             </div>
         </div>
     )
