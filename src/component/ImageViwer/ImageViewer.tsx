@@ -30,6 +30,14 @@ export default function ImageViewer() {
         document.body.removeChild(link);
     }
 
+    function left() {
+
+    }
+
+    function right() {
+
+    }
+
     return (
         <div id="ImageViewer">
             <img src={location.state.imageUrl} alt={location.state.imageName}/>
@@ -37,6 +45,12 @@ export default function ImageViewer() {
                 <IconButton iconClass="fa-solid fa-arrow-left" onClick={onBackButtonClick}/>
                 <IconButton iconClass="fa-solid fa-download" onClick={onDownloadButtonClick}/>
             </header>
+            <div onClick={left} class="nav left">
+                <i class="fa-solid fa-chevron-left"/>
+            </div>
+            <div onClick={right} class="nav right">
+                <i class="fa-solid fa-chevron-right"/>
+            </div>
         </div>
     )
 }
