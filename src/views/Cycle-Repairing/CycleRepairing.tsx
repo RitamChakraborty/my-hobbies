@@ -9,11 +9,15 @@ export default function CycleRepairing() {
             <Header title="Cycle Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
-                    incidunt ipsa nihil officia, quis tempore totam.
+                    Since I got my first cycle, I always hesitated to take it the shop for repair. Instead I was
+                    always determined to fix it by my own. With that motivation I already to repair or rebuild a whole
+                    cycle all by myself. I've posted the picture of one and only cycle gradually upgraded by me. If you
+                    scroll through the images you'll see it change in color and structure. Where the first picture was
+                    taken when I bought my cycle, and the last one is after 10 year. Still ride it everyday and still
+                    modifying.
                 </div>
                 <div class="title">
-                    Here are some of my memories with my cycle
+                    This is how I rebuild my cycle over the years
                 </div>
                 <ImageGallery imagesLocation="cycle-repairing" imagesCount={12} imagesExtension="jpg"/>
             </div>
