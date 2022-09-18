@@ -9,11 +9,12 @@ export default function ElectronicsRepairing() {
             <Header title="Electronics Repairing" position="top" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
-                    incidunt ipsa nihil officia, quis tempore totam.
+                    I was always been a very curious person. I always used to open up any electronics gadget I could
+                    grab and mostly ended up breaking then. But by breaking things I learned to fix them. In my family
+                    hardly every we call an electrician. And there many electronics appliances I had fixed.
                 </div>
                 <div class="title">
-                    Here are some of my memories with my cycle
+                    These are some of such experiences of fixing things
                 </div>
                 <ImageGallery imagesLocation="electronics-repairing" imagesCount={5} imagesExtension="jpg"/>
             </div>
