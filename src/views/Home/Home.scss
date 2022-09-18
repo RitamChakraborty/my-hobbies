@@ -1,0 +1,42 @@
+#Home {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333333;
+    max-width: 600px;
+    padding: 1rem 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: -100vw;
+    transition: 400ms;
+
+    @for $i from 1 through 7 {
+      &:nth-child(#{$i}) {
+        animation: hobby-animation 1s #{600 + $i * 100}ms forwards;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      font-weight: bold;
+      text-decoration: underline;
+      color: steelblue;
+    }
+
+    @keyframes hobby-animation {
+      from {
+        margin-left: -100vw;
+      }
+      to {
+        margin-left: 0;
+      }
+    }
+  }
+}

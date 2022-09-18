@@ -12,6 +12,8 @@ html, body {
 
 body {
   @include font;
+  color: #333333;
+  background-color: #f1f1f1;
 }
 
 #App {
