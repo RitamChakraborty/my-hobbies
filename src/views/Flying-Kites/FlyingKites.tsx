@@ -9,11 +9,14 @@ export default function FlyingKites() {
             <Header title="Flying Kites" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
-                    incidunt ipsa nihil officia, quis tempore totam.
+                    Flying kites is a childhood hobby where me, my cousin brother and maternal uncle used to enjoy a
+                    lot. It grew on me with time. I can recall getting scolded by my mother for flying kites all day.
+                    When I was younger I used to fly kites from the month of November to 14th of January, which is
+                    Makar Sankranti. This is day is celebrated as kite festival. And now days me, my uncle and my friend
+                    gather around on that day and have a lot of fun!
                 </div>
                 <div class="title">
-                    Here are some of my memories with my cycle
+                    Some photos taken during kite festival
                 </div>
                 <ImageGallery imagesLocation="flying-kites" imagesCount={10} imagesExtension="jpg"/>
             </div>
