@@ -8,6 +8,7 @@
   border-radius: 50%;
   z-index: 1;
   transition: 400ms;
+  cursor: pointer;
 
   &:focus, &:active {
     background: #888888;
