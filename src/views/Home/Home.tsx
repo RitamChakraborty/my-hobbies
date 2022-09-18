@@ -36,7 +36,7 @@ export default function Home() {
                         <img src={speakerRepairingIcon} alt="Speaker and Headphone Repairing"/>
                         <span>Speaker and Headphone Repairing</span>
                     </Link>
-                    <Link href={"/others"}>
+                    <Link href={"/electronics-repairing"}>
                         <img src={otherRepairingIcon} alt="Electronics Repairing"/>
                         <span>Electronics Repairing</span>
                     </Link>
