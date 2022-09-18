@@ -5,7 +5,7 @@ import headerImage from "../../assets/speakers-repairing/header.gif";
 export default function SpeakerRepairing() {
     return (
         <>
-            <Header title="Headphone Repairing" img={headerImage}/>
+            <Header title="Speaker Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus

@@ -32,7 +32,7 @@ export default function Home() {
                         <img src={computerRepairingIcon} alt="Computer Repairing"/>
                         <span>Computer Repairing</span>
                     </Link>
-                    <Link href={"/speaker-repairing"}>
+                    <Link href={"/speakers-repairing"}>
                         <img src={speakerRepairingIcon} alt="Headphone Repairing"/>
                         <span>Headphone Repairing</span>
                     </Link>

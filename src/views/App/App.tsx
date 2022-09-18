@@ -20,7 +20,7 @@ export default function App() {
                     <Route path="/cycle-repairing" component={CycleRepairing}/>
                     <Route path="/mobile-repairing" component={MobileRepairing}/>
                     <Route path="/computer-repairing" component={ComputerRepairing}/>
-                    <Route path="/speaker-repairing" component={SpeakerRepairing}/>
+                    <Route path="/speakers-repairing" component={SpeakerRepairing}/>
                     <Route path="/electronics-repairing" component={ElectronicsRepairing}/>
                     <Route path="/flying-kites" component={FlyingKites}/>
                     <Route path="/:location/:id" component={ImageViewer}/>
