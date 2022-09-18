@@ -2,6 +2,7 @@ import {useLocation, useNavigate} from "@solidjs/router";
 import "./ImageViewer.scss";
 import IconButton from "../IconButton/IconButton";
 import {createSignal, onMount, Show} from "solid-js";
+import GlobalNav from "../Global-Nav/GlobalNav";
 
 type ImageInfo = {
     imageLocation: string,
@@ -116,6 +117,7 @@ export default function ImageViewer() {
                     </div>
                 </Show>
             </div>
+            <GlobalNav/>
         </Show>
     )
 }
