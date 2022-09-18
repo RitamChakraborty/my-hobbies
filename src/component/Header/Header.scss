@@ -16,7 +16,8 @@
   h1 {
     position: absolute;
     bottom: 0.5rem;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgb(155, 1, 178);
     @include header-font;
     transform-origin: left center;
     transform: scaleX(0);
