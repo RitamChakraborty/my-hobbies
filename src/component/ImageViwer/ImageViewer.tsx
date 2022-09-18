@@ -34,7 +34,11 @@ export default function ImageViewer() {
     }
 
     async function onDownloadButtonClick() {
-        const image = await fetch(state().imageUrl);
+        const imageLink = new URL(
+            `../../assets/${state().imageLocation}/images/${state().imageId}.${state().imageExtension}`,
+            import.meta.url
+        ).href;
+        const image = await fetch(imageLink);
         const imageBlog = await image.blob();
         const imageURL = URL.createObjectURL(imageBlog);
 

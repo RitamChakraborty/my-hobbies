@@ -19,7 +19,7 @@ export default function FloatingActionButton(props: FloatingActionButtonProps) {
             style={{
                 "background-color": props.primary ? "orange" : "white",
                 "position": props.selected ? "relative" : "absolute",
-                "box-shadow": props.selected ? 'rgba(0, 0, 0, 0.35) 0 5px 15px' : 'none'
+                "box-shadow": props.primary ? 'rgba(0, 0, 0, 0.35) 0 5px 15px' : 'none'
             }}
         >
             <Show
