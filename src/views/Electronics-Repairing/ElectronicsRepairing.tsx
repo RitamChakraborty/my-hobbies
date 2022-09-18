@@ -1,6 +1,6 @@
 import Header from "../../component/Header/Header";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
-import headerImage from "../../assets/others/header.gif";
+import headerImage from "../../assets/electronics-repairing/header.gif";
 
 export default function ElectronicsRepairing() {
     return (
@@ -14,7 +14,7 @@ export default function ElectronicsRepairing() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="others" imagesCount={5} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="electronics-repairing" imagesCount={5} imagesExtension="jpg"/>
             </div>
         </>
     );

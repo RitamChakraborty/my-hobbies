@@ -1,6 +1,6 @@
 import Header from "../../component/Header/Header";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
-import headerImage from "../../assets/kites/header.gif";
+import headerImage from "../../assets/flying-kites/header.gif";
 
 export default function FlyingKites() {
     return (
@@ -14,7 +14,7 @@ export default function FlyingKites() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="kites" imagesCount={10} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="flying-kites" imagesCount={10} imagesExtension="jpg"/>
             </div>
         </>
     );
