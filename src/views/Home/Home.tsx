@@ -29,12 +29,12 @@ export default function Home() {
                         <span>Mobile Repairing</span>
                     </Link>
                     <Link href={"/computer-repairing"}>
-                        <img src={computerRepairingIcon} alt="Computer and Laptop Repairing"/>
-                        <span>Computer and Laptop Repairing</span>
+                        <img src={computerRepairingIcon} alt="Computer Repairing"/>
+                        <span>Computer Repairing</span>
                     </Link>
                     <Link href={"/speaker-repairing"}>
-                        <img src={speakerRepairingIcon} alt="Speaker and Headphone Repairing"/>
-                        <span>Speaker and Headphone Repairing</span>
+                        <img src={speakerRepairingIcon} alt="Headphone Repairing"/>
+                        <span>Headphone Repairing</span>
                     </Link>
                     <Link href={"/others"}>
                         <img src={otherRepairingIcon} alt="Electronics Repairing"/>

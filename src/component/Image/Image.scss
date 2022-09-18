@@ -36,12 +36,14 @@
 
   @keyframes image-animation {
     from {
-      margin-top: -20vh;
+      margin-top: 0;
       opacity: 0;
+      transform: scale(0);
     }
     to {
       margin-top: 0;
       opacity: 1;
+      transform: scale(1);
     }
   }
 }
