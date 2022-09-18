@@ -19,7 +19,7 @@ export default function Cycling() {
                 </div>
                 <ImageGallery imagesLocation="cycling" imagesCount={26} imagesExtension="jpg"/>
                 <hr/>
-                <div class="description">
+                <div class="description" style={{"text-align":"center"}}>
                     This is me going out for cycling after rain to the nearby jungle with my friend.
                     <br/>
                 </div>
