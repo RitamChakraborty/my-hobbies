@@ -13,7 +13,7 @@ import "./Home.scss";
 export default function Home() {
     return (
         <div id="Home">
-            <Header title="A List of My Hobbies" img={homeHeader}/>
+            <Header title="List of My Hobbies" img={homeHeader}/>
             <div class="container">
                 <nav>
                     <Link href={"/cycling"}>
