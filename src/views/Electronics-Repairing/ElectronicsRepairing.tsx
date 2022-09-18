@@ -1,11 +1,11 @@
 import Header from "../../component/Header/Header";
-import headerImage from "../../assets/cycling/header.gif";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
+import headerImage from "../../assets/others/header.gif";
 
-export default function Cycling() {
+export default function ElectronicsRepairing() {
     return (
         <>
-            <Header title="Cycling" img={headerImage}/>
+            <Header title="Cycling" position="top" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
@@ -14,8 +14,8 @@ export default function Cycling() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="cycling" imagesCount={26} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="others" imagesCount={5} imagesExtension="jpg"/>
             </div>
         </>
-    )
+    );
 }

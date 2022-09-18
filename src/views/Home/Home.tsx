@@ -4,7 +4,7 @@ import {Link} from "@solidjs/router";
 import cyclingIcon from "../../assets/cycling/icon.png";
 import cycleRepairingIcon from "../../assets/cycle-repairing/icon.png";
 import mobileRepairingIcon from "../../assets/mobile-repairing/icon.png";
-import computerRepairingIcon from "../../assets/comptuer-repairing/icon.png";
+import computerRepairingIcon from "../../assets/computer-repairing/icon.png";
 import speakerRepairingIcon from "../../assets/speakers-repairing/icon.png";
 import otherRepairingIcon from "../../assets/others/icon.png";
 import kiteIcon from "../../assets/kites/icon.png";
@@ -36,7 +36,7 @@ export default function Home() {
                         <img src={speakerRepairingIcon} alt="Headphone Repairing"/>
                         <span>Headphone Repairing</span>
                     </Link>
-                    <Link href={"/others"}>
+                    <Link href={"/electronics-repairing"}>
                         <img src={otherRepairingIcon} alt="Electronics Repairing"/>
                         <span>Electronics Repairing</span>
                     </Link>

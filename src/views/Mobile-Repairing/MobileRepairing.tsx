@@ -1,8 +1,8 @@
 import Header from "../../component/Header/Header";
-import headerImage from "../../assets/cycling/header.gif";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
+import headerImage from "../../assets/mobile-repairing/header.gif";
 
-export default function Cycling() {
+export default function MobileRepairing() {
     return (
         <>
             <Header title="Cycling" img={headerImage}/>
@@ -14,8 +14,8 @@ export default function Cycling() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="cycling" imagesCount={26} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="mobile-repairing" imagesCount={11} imagesExtension="jpg"/>
             </div>
         </>
-    )
+    );
 }
