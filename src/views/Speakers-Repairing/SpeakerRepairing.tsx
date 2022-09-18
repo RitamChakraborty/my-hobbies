@@ -9,11 +9,12 @@ export default function SpeakerRepairing() {
             <Header title="Speaker Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
-                    incidunt ipsa nihil officia, quis tempore totam.
+                    If there is something that is destined to stop working that must be your earphones. I was not any excpetion to that. 
+                    Quite a lot of my earphones got damaged, and instead of throwing them I emerge as their savior. I used to take old 
+                    earphones from my friends who decided to throw them away and fixed those earphones for them. 
                 </div>
                 <div class="title">
-                    Here are some of my memories with my cycle
+                   My home laboratory for repairing earphones and speakers
                 </div>
                 <ImageGallery imagesLocation="speakers-repairing" imagesCount={12} imagesExtension="jpg"/>
             </div>

@@ -9,10 +9,9 @@ export default function FlyingKites() {
             <Header title="Flying Kites" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Flying kites is a childhood hobby where me, my cousin brother and maternal uncle used to enjoy a
-                    lot. It grew on me with time. I can recall getting scolded by my mother for flying kites all day.
-                    When I was younger I used to fly kites from the month of November to 14th of January, which is
-                    Makar Sankranti. This is day is celebrated as kite festival. And now days me, my uncle and my friend
+                    Flying kites is a childhood hobby where my cousin brother and maternal uncle have been my constants in the gala. It grew on me with time. I can recall getting scolded by my mother for flying kites all day.
+                    When I was younger I used to fly kites from the month of November till 14th of January, the day of
+                    Makar Sankranti. This day is celebrated as kite festival. And nowadays me, my uncle and my friend
                     gather around on that day and have a lot of fun!
                 </div>
                 <div class="title">
