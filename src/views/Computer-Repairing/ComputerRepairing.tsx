@@ -5,7 +5,7 @@ import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 export default function Cycling() {
     return (
         <>
-            <Header title="Cycling" img={headerImage}/>
+            <Header title="Computer Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus

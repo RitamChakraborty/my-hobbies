@@ -5,7 +5,7 @@ import headerImage from "../../assets/others/header.gif";
 export default function ElectronicsRepairing() {
     return (
         <>
-            <Header title="Cycling" position="top" img={headerImage}/>
+            <Header title="Electronics Repairing" position="top" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
