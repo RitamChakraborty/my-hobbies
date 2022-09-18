@@ -5,7 +5,7 @@ import headerImage from "../../assets/mobile-repairing/header.gif";
 export default function MobileRepairing() {
     return (
         <>
-            <Header title="Cycling" img={headerImage}/>
+            <Header title="Mobile Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus

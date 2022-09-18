@@ -6,8 +6,8 @@ import cycleRepairingIcon from "../../assets/cycle-repairing/icon.png";
 import mobileRepairingIcon from "../../assets/mobile-repairing/icon.png";
 import computerRepairingIcon from "../../assets/computer-repairing/icon.png";
 import speakerRepairingIcon from "../../assets/speakers-repairing/icon.png";
-import otherRepairingIcon from "../../assets/others/icon.png";
-import kiteIcon from "../../assets/kites/icon.png";
+import otherRepairingIcon from "../../assets/electronics-repairing/icon.png";
+import kiteIcon from "../../assets/flying-kites/icon.png";
 import "./Home.scss";
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
                         <img src={otherRepairingIcon} alt="Electronics Repairing"/>
                         <span>Electronics Repairing</span>
                     </Link>
-                    <Link href={"/flying-kites"}>
+                    <Link href={"/flying-flying-kites"}>
                         <img src={kiteIcon} alt="Flying Kites"/>
                         <span>Flying Kites</span>
                     </Link>
