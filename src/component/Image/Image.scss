@@ -1,12 +1,36 @@
 #Image {
+  position: relative;
+  transition: 400ms;
+
   img {
     height: 20vh;
     border-radius: 0.5rem;
-    transition: 400ms;
     animation: image-animation 500ms forwards;
+  }
 
-    &:hover {
-      transform: scale(1.5);
+  span {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    opacity: 0;
+    transition: 400ms;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding-right: 0.5rem;
+
+    i {
+      margin-right: 0.25rem;
+    }
+  }
+
+  &:hover {
+    z-index: 1;
+    transform: scale(1.5);
+
+    span {
+      opacity: 1;
     }
   }
 

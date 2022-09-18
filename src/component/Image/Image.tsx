@@ -20,6 +20,10 @@ export default function Image(props: ImageProps) {
     return (
         <div id="Image">
             <img onClick={onClick} src={props.imageUrl} alt={props.imageName}/>
+            <span>
+                <i class="fa-solid fa-image"/>
+                Click to view image
+            </span>
         </div>
     );
 }
