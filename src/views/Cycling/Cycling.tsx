@@ -11,8 +11,10 @@ export default function Cycling() {
             <Header title="Cycling" img={headerImage}/>
             <div class="container">
                 <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
-                    incidunt ipsa nihil officia, quis tempore totam.
+                    From an very early age I was fond of cycling. But during lock down I took that hobby seriously. On
+                    that time I used to go to cycling everyday around 20-30km everyday. Three times I went more than
+                    50km. 65km is my highest. Due to work pressure I couldn't continue it this year, but tying my very
+                    best to get back to the habit.
                 </div>
                 <div class="title">
                     Here are some of my memories with my cycle
