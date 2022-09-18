@@ -20,14 +20,14 @@ export default function ImageGallery(props: ImageGalleryProps) {
     }
 
     onMount(async () => {
-        await pause(600);
+        await pause(1000);
 
         for (let i = 0; i < props.imagesCount; ++i) {
             const url = new URL(
-                `../../assets/${props.imagesLocation}/images/${i + 1}.${props.imagesExtension}`,
+                `../../assets/${props.imagesLocation}/compressed/${i + 1}.${props.imagesExtension}`,
                 import.meta.url
             ).href;
-            await pause(100);
+            await pause(200);
             setImages((value) => [...value, url]);
         }
     })

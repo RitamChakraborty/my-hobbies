@@ -58,7 +58,7 @@ export default function ImageViewer() {
         const imageId = imageInfo.imageId - 1;
         const imageName = `${imageInfo.imageLocation}-${imageId}`;
         const imageUrl = new URL(
-            `../../assets/${imageInfo.imageLocation}/images/${imageId}.${imageInfo.imageExtension}`,
+            `../../assets/${imageInfo.imageLocation}/compressed/${imageId}.${imageInfo.imageExtension}`,
             import.meta.url
         ).href;
         const newState: ImageInfo = {
@@ -80,7 +80,7 @@ export default function ImageViewer() {
         const imageId = imageInfo.imageId + 1;
         const imageName = `${imageInfo.imageLocation}-${imageId}`;
         const imageUrl = new URL(
-            `../../assets/${imageInfo.imageLocation}/images/${imageId}.${imageInfo.imageExtension}`,
+            `../../assets/${imageInfo.imageLocation}/compressed/${imageId}.${imageInfo.imageExtension}`,
             import.meta.url
         ).href;
         const newState: ImageInfo = {
