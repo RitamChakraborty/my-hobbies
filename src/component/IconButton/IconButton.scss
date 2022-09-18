@@ -6,4 +6,10 @@
   place-items: center;
   color: white;
   border-radius: 50%;
+  transition: 400ms;
+
+  &:focus, &:active {
+    background: #888888;
+    transform: scale(0.8);
+  }
 }
