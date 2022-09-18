@@ -6,7 +6,7 @@ import GlobalNav from "../../component/Global-Nav/GlobalNav";
 export default function ElectronicsRepairing() {
     return (
         <>
-            <Header title="Electronics Repairing" position="top" img={headerImage}/>
+            <Header title="Electronics Repairing" img={headerImage}/>
             <div class="container">
                 <div class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae consequuntur deleniti ducimus
