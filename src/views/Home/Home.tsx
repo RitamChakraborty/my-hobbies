@@ -40,7 +40,7 @@ export default function Home() {
                         <img src={otherRepairingIcon} alt="Electronics Repairing"/>
                         <span>Electronics Repairing</span>
                     </Link>
-                    <Link href={"/flying-flying-kites"}>
+                    <Link href={"/flying-kites"}>
                         <img src={kiteIcon} alt="Flying Kites"/>
                         <span>Flying Kites</span>
                     </Link>
