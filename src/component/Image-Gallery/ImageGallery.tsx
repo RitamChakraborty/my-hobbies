@@ -14,17 +14,12 @@ export default function ImageGallery(props: ImageGalleryProps) {
 
         for (let i = 0; i < props.imagesCount; ++i) {
             images.push(new URL(
-                `../../assets/${props.imagesLocation}/${props.imagesLocation}-${i + 1}.${props.imagesExtension}`,
+                `../../assets/${props.imagesLocation}/images/${i + 1}.${props.imagesExtension}`,
                 import.meta.url).href
             );
         }
 
         return images;
-    }
-
-    function imageName(imageUrl: string) {
-        const s = imageUrl.split("/");
-        return s[s.length - 1];
     }
 
     return (
@@ -35,8 +30,9 @@ export default function ImageGallery(props: ImageGalleryProps) {
                         return (
                             <Image
                                 imageLocation={props.imagesLocation}
-                                imageId={i() + 1} imageUrl={image}
-                                imageName={imageName(image)}
+                                imageId={i() + 1}
+                                imageUrl={image}
+                                imageName={`${props.imagesLocation}-${i()}`}
                             />
                         )
                     }

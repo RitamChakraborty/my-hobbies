@@ -1,5 +1,5 @@
 import Header from "../../component/Header/Header";
-import cycling from "../../assets/cycling/cycling.gif";
+import cycling from "../../assets/cycling/header.gif";
 import "./Cycling.scss";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 
@@ -15,7 +15,7 @@ export default function Cycling() {
                 <div class="title">
                     Here are some of my memories with my cycle
                 </div>
-                <ImageGallery imagesLocation="cycling" imagesCount={10} imagesExtension="jpg"/>
+                <ImageGallery imagesLocation="cycling" imagesCount={27} imagesExtension="jpg"/>
             </div>
         </div>
     )
