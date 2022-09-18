@@ -1,0 +1,14 @@
+#Video {
+  margin: 1rem 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+
+  video {
+    max-height: 90vh;
+    max-width: 80vw;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 4px 16px, rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 56px;
+  }
+}

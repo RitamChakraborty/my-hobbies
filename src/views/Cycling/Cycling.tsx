@@ -2,6 +2,8 @@ import Header from "../../component/Header/Header";
 import headerImage from "../../assets/cycling/header.gif";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 import GlobalNav from "../../component/Global-Nav/GlobalNav";
+import video from "../../assets/cycling/video.mp4";
+import Video from "../../component/Video/Video";
 
 export default function Cycling() {
     return (
@@ -16,6 +18,12 @@ export default function Cycling() {
                     Here are some of my memories with my cycle
                 </div>
                 <ImageGallery imagesLocation="cycling" imagesCount={26} imagesExtension="jpg"/>
+                <hr/>
+                <div class="description">
+                    This is me going out for cycling after rain to the nearby jungle with my friend.
+                    <br/>
+                </div>
+                <Video source={video}/>.
             </div>
             <GlobalNav/>
         </>
