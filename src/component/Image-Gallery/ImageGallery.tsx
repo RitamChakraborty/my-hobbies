@@ -27,7 +27,7 @@ export default function ImageGallery(props: ImageGalleryProps) {
                 `../../assets/${props.imagesLocation}/images/${i + 1}.${props.imagesExtension}`,
                 import.meta.url
             ).href;
-            await pause(100);
+            await pause(400);
             setImages((value) => [...value, url]);
         }
     })

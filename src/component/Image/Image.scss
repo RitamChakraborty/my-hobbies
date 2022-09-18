@@ -3,9 +3,21 @@
     height: 20vh;
     border-radius: 0.5rem;
     transition: 400ms;
+    animation: image-animation 500ms forwards;
 
     &:hover {
       transform: scale(1.5);
+    }
+  }
+
+  @keyframes image-animation {
+    from {
+      margin-top: -20vh;
+      opacity: 0;
+    }
+    to {
+      margin-top: 0;
+      opacity: 1;
     }
   }
 }
