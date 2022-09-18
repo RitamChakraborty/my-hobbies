@@ -5,7 +5,8 @@ type ImageProps = {
     imageLocation: string,
     imageId: number,
     imageUrl: string,
-    imageName: string
+    imageName: string,
+    maxCount: number
 }
 
 export default function Image(props: ImageProps) {

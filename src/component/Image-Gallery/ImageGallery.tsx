@@ -43,6 +43,7 @@ export default function ImageGallery(props: ImageGalleryProps) {
                                 imageId={i() + 1}
                                 imageUrl={image}
                                 imageName={`${props.imagesLocation}-${i()}`}
+                                maxCount={props.imagesCount}
                             />
                         )
                     }
