@@ -1,6 +1,7 @@
 import Header from "../../component/Header/Header";
 import headerImage from "../../assets/cycling/header.gif";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
+import GlobalNav from "../../component/Global-Nav/GlobalNav";
 
 export default function Cycling() {
     return (
@@ -16,6 +17,7 @@ export default function Cycling() {
                 </div>
                 <ImageGallery imagesLocation="cycling" imagesCount={26} imagesExtension="jpg"/>
             </div>
+            <GlobalNav/>
         </>
     )
 }

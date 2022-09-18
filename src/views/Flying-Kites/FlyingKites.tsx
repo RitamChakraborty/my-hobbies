@@ -1,6 +1,7 @@
 import Header from "../../component/Header/Header";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 import headerImage from "../../assets/flying-kites/header.gif";
+import GlobalNav from "../../component/Global-Nav/GlobalNav";
 
 export default function FlyingKites() {
     return (
@@ -16,6 +17,7 @@ export default function FlyingKites() {
                 </div>
                 <ImageGallery imagesLocation="flying-kites" imagesCount={10} imagesExtension="jpg"/>
             </div>
+            <GlobalNav/>
         </>
     );
 }

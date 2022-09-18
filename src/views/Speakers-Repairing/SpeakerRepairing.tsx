@@ -1,6 +1,7 @@
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 import Header from "../../component/Header/Header";
 import headerImage from "../../assets/speakers-repairing/header.gif";
+import GlobalNav from "../../component/Global-Nav/GlobalNav";
 
 export default function SpeakerRepairing() {
     return (
@@ -16,6 +17,7 @@ export default function SpeakerRepairing() {
                 </div>
                 <ImageGallery imagesLocation="speakers-repairing" imagesCount={12} imagesExtension="jpg"/>
             </div>
+            <GlobalNav/>
         </>
     );
 }

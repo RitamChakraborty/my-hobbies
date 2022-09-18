@@ -1,6 +1,7 @@
 import Header from "../../component/Header/Header";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 import headerImage from "../../assets/mobile-repairing/header.gif";
+import GlobalNav from "../../component/Global-Nav/GlobalNav";
 
 export default function MobileRepairing() {
     return (
@@ -16,6 +17,7 @@ export default function MobileRepairing() {
                 </div>
                 <ImageGallery imagesLocation="mobile-repairing" imagesCount={11} imagesExtension="jpg"/>
             </div>
+            <GlobalNav/>
         </>
     );
 }

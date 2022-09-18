@@ -1,6 +1,7 @@
 import Header from "../../component/Header/Header";
 import ImageGallery from "../../component/Image-Gallery/ImageGallery";
 import headerImage from "../../assets/electronics-repairing/header.gif";
+import GlobalNav from "../../component/Global-Nav/GlobalNav";
 
 export default function ElectronicsRepairing() {
     return (
@@ -16,6 +17,7 @@ export default function ElectronicsRepairing() {
                 </div>
                 <ImageGallery imagesLocation="electronics-repairing" imagesCount={5} imagesExtension="jpg"/>
             </div>
+            <GlobalNav/>
         </>
     );
 }
