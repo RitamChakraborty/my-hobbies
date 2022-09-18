@@ -2,6 +2,7 @@ import {useLocation, useNavigate} from "@solidjs/router";
 import "./ImageViewer.scss";
 import IconButton from "../IconButton/IconButton";
 import {createSignal, onMount, Show} from "solid-js";
+import GlobalNav from "../Global-Nav/GlobalNav";
 
 type ImageInfo = {
     imageLocation: string,
@@ -57,7 +58,7 @@ export default function ImageViewer() {
         const imageId = imageInfo.imageId - 1;
         const imageName = `${imageInfo.imageLocation}-${imageId}`;
         const imageUrl = new URL(
-            `../../assets/${imageInfo.imageLocation}/images/${imageId}.${imageInfo.imageExtension}`,
+            `../../assets/${imageInfo.imageLocation}/compressed/${imageId}.${imageInfo.imageExtension}`,
             import.meta.url
         ).href;
         const newState: ImageInfo = {
@@ -79,7 +80,7 @@ export default function ImageViewer() {
         const imageId = imageInfo.imageId + 1;
         const imageName = `${imageInfo.imageLocation}-${imageId}`;
         const imageUrl = new URL(
-            `../../assets/${imageInfo.imageLocation}/images/${imageId}.${imageInfo.imageExtension}`,
+            `../../assets/${imageInfo.imageLocation}/compressed/${imageId}.${imageInfo.imageExtension}`,
             import.meta.url
         ).href;
         const newState: ImageInfo = {
@@ -116,6 +117,7 @@ export default function ImageViewer() {
                     </div>
                 </Show>
             </div>
+            <GlobalNav/>
         </Show>
     )
 }

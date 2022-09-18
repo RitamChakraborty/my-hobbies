@@ -1,0 +1,18 @@
+#GlobalNav {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  z-index: 99;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: grid;
+  place-items: center;
+
+  i {
+    color: #444444;
+    font-size: 1.2rem;
+  }
+}

@@ -16,6 +16,13 @@
     border-radius: 0.5rem;
     margin-left: -100vw;
     transition: 400ms;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      height: 2rem;
+    }
 
     @for $i from 1 through 7 {
       &:nth-child(#{$i}) {
