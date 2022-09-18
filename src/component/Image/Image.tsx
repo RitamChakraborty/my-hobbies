@@ -6,6 +6,7 @@ type ImageProps = {
     imageId: number,
     imageUrl: string,
     imageName: string,
+    imageExtension: string,
     maxCount: number
 }
 

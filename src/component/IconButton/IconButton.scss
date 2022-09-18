@@ -6,6 +6,7 @@
   place-items: center;
   color: white;
   border-radius: 50%;
+  z-index: 1;
   transition: 400ms;
 
   &:focus, &:active {
