@@ -1,4 +1,12 @@
 #ImageViewer {
+  header {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
 
   img {
     max-height: 90vh;
